@@ -1,5 +1,7 @@
 {
   "name": "checksum_app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "purecss": "^1.0.0"
+  }
 }

@@ -12,4 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require purecss/build/pure-min
  */
+
+.content {
+  padding: 1em 1em 3em;
+}
+
+

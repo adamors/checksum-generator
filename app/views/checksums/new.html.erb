@@ -2,10 +2,18 @@
   <%= content_tag :div, flash[:error], class: "flash error" %>
 <% end %>
 
-<p>Enter some text then hit <strong>Create Checksum</strong></p>
+<%= form_for @checksum, html: { class: 'pure-form pure-form-aligned' } do |f| %>
+  <fieldset>
+    <legend>Enter some text then hit <strong>Create Checksum</strong></legend>
 
-<%= form_for @checksum do |f| %>
-  <%= f.label :text, 'Text' %>:
-  <%= f.text_field :text %>
-  <%= f.submit %>
+    <div class="pure-control-group">
+      <%= f.label :text, 'Text' %>:
+      <%= f.text_field :text %>
+    </div>
+
+    <div class="pure-controls">
+      <%= f.submit class: 'pure-button pure-button-primary' %>
+    </div>
+  </fieldset>
 <% end %>
+
