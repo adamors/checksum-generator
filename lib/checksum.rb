@@ -1,6 +1,3 @@
-require_relative 'vowel_upcaser'
-require_relative 'checksum_result'
-require_relative 'string_refinements'
 # Class for generating the checkum of an input text
 class Checksum
   using StringRefinements

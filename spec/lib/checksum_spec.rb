@@ -1,5 +1,4 @@
-require 'spec_helper'
-require_relative '../../lib/checksum'
+require 'rails_helper'
 
 RSpec.describe Checksum do
   describe '#generate' do

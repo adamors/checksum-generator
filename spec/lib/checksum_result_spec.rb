@@ -1,5 +1,4 @@
-require 'spec_helper'
-require_relative '../../lib/checksum_result'
+require 'rails_helper'
 
 RSpec.describe ChecksumResult do
   subject { described_class.new(word_count: word_count, length: length, text: text) }

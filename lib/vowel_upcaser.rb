@@ -1,5 +1,3 @@
-require_relative 'string_refinements'
-
 # Upcase vowels in a word based on rules
 class VowelUpcaser
   using StringRefinements

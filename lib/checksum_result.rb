@@ -1,4 +1,3 @@
-require_relative 'string_refinements'
 # Value object for the checksum result
 class ChecksumResult
   using StringRefinements

@@ -1,5 +1,4 @@
-require 'spec_helper'
-require_relative '../../lib/vowel_upcaser'
+require 'rails_helper'
 
 RSpec.describe VowelUpcaser do
   subject { described_class.call(word: word) }
