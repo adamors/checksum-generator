@@ -11,7 +11,7 @@ class ChecksumGenerator
          .scan(/.{1,10}/)
          .map(&:capitalize)
          .map { |word| VowelUpcaser.call(word: word) }
-         .join(' ')
+         .join(' ').tap { |text| return checksum_result(text) }
   end
 
   private
