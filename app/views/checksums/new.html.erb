@@ -1,0 +1,11 @@
+<% if flash[:error].present? %>
+  <%= content_tag :div, flash[:error], class: "flash error" %>
+<% end %>
+
+<p>Enter some text then hit <strong>Create Checksum</strong></p>
+
+<%= form_for @checksum do |f| %>
+  <%= f.label :text, 'Text' %>:
+  <%= f.text_field :text %>
+  <%= f.submit %>
+<% end %>
