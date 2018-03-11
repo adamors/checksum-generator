@@ -1,0 +1,9 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'Gemfile'
+    - 'spec/'
+FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  Max: 100
