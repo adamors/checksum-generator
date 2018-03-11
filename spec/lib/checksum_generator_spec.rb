@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Checksum do
+RSpec.describe ChecksumGenerator do
   describe '#generate' do
     let(:input) { 'foo bar baz wibble fizzbuzz fizz buzz' }
 

@@ -1,5 +1,5 @@
 # Class for generating the checkum of an input text
-class Checksum
+class ChecksumGenerator
   using StringRefinements
 
   def initialize(input:)
